@@ -4,9 +4,9 @@
 
 **Goal**: Have a working in-memory cache using a skip list.
 
-- [ ] Implement skip list with `Set` and `Get`
-- [ ] Wrap skip list in a `MemTable` interface (`Set`, `Get`, `Range`)
-- [ ] Unit tests for `MemTable`
+- [x] Implement skip list with `Set` and `Get`
+- [x] Wrap skip list in a `MemTable` interface (`Set`, `Get`, `ScanF` `Delete`)
+- [x] Unit tests for `MemTable`
 
 **Deliverable**: An ordered in-memory key/value store.
 
@@ -63,7 +63,9 @@
 
 **Goal**: Validate performance and usability.
 
-- [ ] Add benchmarks using `testing.B`
-- [ ] Implement simple CLI in `cmd/` for interactive usage (`put`, `get`, `scan`)
+- [ ] Add benchmarks using for memtable to measure best maxLevel and propbabilities
+- [ ] Add benchmarks for SSTable read/write performance
+- [ ] Add benchmarks for compaction performance
+- [ ] Add benchmarks for LSM Tree overall performance
 
-**Deliverable**: Usable and measurable system.
+**Deliverable**: Usable and measurable system
