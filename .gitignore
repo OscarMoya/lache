@@ -1,0 +1,31 @@
+.vscode
+
+# Compiled files
+*.o
+*.exe
+*.out
+*.test
+*.prof
+
+# Dependencies
+/vendor/
+
+# Test coverage output
+*.cover
+*.out
+report.xml
+
+install-misspell.sh
+
+# Binary files
+/bin/
+
+# Executables
+*.app
+
+# Log file
+/log.txt
+
+# Temporary directory
+/.tmp/
+.DS_Store
